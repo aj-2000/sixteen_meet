@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BasicAccountCard from "../components/BasicAccountCard";
 import Header from "../components/layout/Header";
 
@@ -29,7 +30,7 @@ const VerifyYourAge = () => {
             />
           </div>
           <span className="text-sm text-center text-gray-400 font-medium py-2 bg-gray-200 rounded-lg px-auto min-w-[320px]">
-            Continue
+            <Link to={'/join-meet'}>Continue</Link>
           </span>
         </div>
       </div>
