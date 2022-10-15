@@ -11,8 +11,8 @@ import { FaRegHandPaper } from "react-icons/fa";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
 const MeetControlBar = () => {
   return (
-    <div className="bg-black flex text-white text-base justify-between items-center px-4 py-1">
-      <div>2:57 PM | sbz-pwdg-fgb</div>
+    <div className="bg-black flex flex-col md:flex-row text-white text-base justify-between items-center px-4 py-1">
+      <div className="hidden md:inline-block">2:57 PM | sbz-pwdg-fgb</div>
       <div className="flex">
         <div className="text-lg rounded-full bg-red-500 p-2 my-2 mx-1">
           <BiMicrophoneOff />
