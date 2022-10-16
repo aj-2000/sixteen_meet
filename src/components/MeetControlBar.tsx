@@ -9,7 +9,11 @@ import {
 } from "react-icons/md";
 import { FaRegHandPaper } from "react-icons/fa";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
+import { useAppDispatch } from "../app/hooks";
+import { toggleChatBox } from "../app/features/chatBoxSlice";
+
 const MeetControlBar = () => {
+  const dispatch = useAppDispatch();
   return (
     <div className="bg-black flex flex-col md:flex-row text-white text-base justify-between items-center px-4 py-1">
       <div className="hidden md:inline-block">2:57 PM | sbz-pwdg-fgb</div>
@@ -43,7 +47,12 @@ const MeetControlBar = () => {
         <div className="text-xl rounded-full px-4 py-2 my-2 mx-1">
           <MdOutlinePeopleAlt />
         </div>
-        <div className="text-xl rounded-full px-4 py-2 my-2 mx-1">
+        <div
+          onClick={() => {
+            dispatch(toggleChatBox());
+          }}
+          className="text-xl rounded-full px-4 py-2 my-2 mx-1 hover:cursor-pointer"
+        >
           <BsFillChatLeftTextFill />
         </div>
       </div>

@@ -14,14 +14,15 @@ const VerifyYourAge = () => {
             src="https://us01st-cf.zoom.us/fe-static/fe-signup-login-active/img/banner-step-1.2faf107a.png"
           />
           <div className="hidden md:inline-block">
-          <BasicAccountCard/>
+            <BasicAccountCard />
           </div>
-          
         </div>
         <div className="min-w-[60%] pb-[5000px] flex flex-col justify-center items-center gap-y-6 mt-12 md:mt-0">
           <span className="text-4xl font-medium mb-10">Verify Your Age</span>
           <div className="flex flex-col items-center gap-y-6">
-            <span className="text-sm md:text-xs text-gray-600">Please confirm your birth year. This data will not be stored.</span>
+            <span className="text-sm md:text-xs text-gray-600">
+              Please confirm your birth year. This data will not be stored.
+            </span>
             <input
               className="rounded-sm border-1 border py-2 px-auto w-[320px]"
               id="birth_year"
@@ -30,7 +31,7 @@ const VerifyYourAge = () => {
             />
           </div>
           <span className="text-sm text-center text-gray-400 font-medium py-2 bg-gray-200 rounded-lg px-auto min-w-[320px]">
-            <Link to={'/sign-up'}>Continue</Link>
+            <Link to={"/sign-up"}>Continue</Link>
           </span>
         </div>
       </div>
