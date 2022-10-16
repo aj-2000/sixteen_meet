@@ -1,10 +1,13 @@
+
 import { configureStore } from "@reduxjs/toolkit";
-import chatBoxReducer from "./features/chatBoxSlice";
+import chatBoxReducer from "./features/chatBox/chatBoxSlice";
+import ParticipantsDetailsReducer from './features/participantsDetails/participantsDetailsSlice';
 // ...
 
 export const store = configureStore({
   reducer: {
-    chatBox: chatBoxReducer
+    chatBox: chatBoxReducer,
+    participantsDetails: ParticipantsDetailsReducer
   },
 });
 
