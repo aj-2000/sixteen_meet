@@ -41,7 +41,7 @@ const ParticipantDetails = () => {
             <div className="w-8 h-8">
               <img
                 className="rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQHj-Uul_quJmA/profile-displayphoto-shrink_400_400/0/1663409602983?e=1671667200&v=beta&t=WkNYWx_QKXikRslJfBZOxUXZlQG6BwbhCVAo6EfXv_U"
+                src="https://media.licdn.com/dms/image/D4D03AQHh5u0zW76BqQ/profile-displayphoto-shrink_800_800/0/1668944589962?e=1677715200&v=beta&t=RB-ZLzKyU_hqd0lYsawIv8vrbtsS24ofrBlsRc7RLjA"
               />
             </div>
             <div className="flex flex-col justify-center">
@@ -64,7 +64,7 @@ const ParticipantDetails = () => {
             <div className="w-8 h-8">
               <img
                 className="rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQE9ojAB0ygWlg/profile-displayphoto-shrink_100_100/0/1662952990286?e=1671667200&v=beta&t=wRADpY88yv1AP15uiNpr_wLao1mbT_vLOKjdF1lMdCE"
+                src="https://pps.whatsapp.net/v/t61.24694-24/317055950_566320794875922_7380152775861602615_n.jpg?ccb=11-4&oh=01_AdR6aZbVSN8-H8hdYrVGLcwivTXC5GY2UtngeRUhMWj6DQ&oe=63B82326"
               />
             </div>
             <div className="flex flex-col justify-center">
@@ -87,7 +87,7 @@ const ParticipantDetails = () => {
             <div className="w-8 h-8">
               <img
                 className="rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQFvmNKUe_r-2w/profile-displayphoto-shrink_100_100/0/1626711580245?e=1671667200&v=beta&t=oVYljBKIlHoEA6Kskz3IYm7AfkR9HDSbFOKme0ulJOM"
+                src="https://pps.whatsapp.net/v/t61.24694-24/312204642_687890339649530_8499401415103888520_n.jpg?ccb=11-4&oh=01_AdSqUqM_VB8Xbk-SVKumlMdrd8iZfaF722MTCn7dZIzo8Q&oe=63B81475"
               />
             </div>
             <div className="flex flex-col justify-center">
@@ -110,7 +110,7 @@ const ParticipantDetails = () => {
             <div className="w-8 h-8">
               <img
                 className="rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/D4E03AQHrWVZ1R34x-g/profile-displayphoto-shrink_100_100/0/1664553441307?e=1671667200&v=beta&t=CcdDgrfVuFHHVXdMCVYxRI35E8Yg1pQGNsKa1E3Ly-o"
+                src="https://pps.whatsapp.net/v/t61.24694-24/312280021_479202791007341_689401792306067652_n.jpg?ccb=11-4&oh=01_AdRtm5h7IuMdJOYBFN92yH08qQWOD9-THj0p1XSkUZm0wA&oe=63B7F77D"
               />
             </div>
             <div className="flex flex-col justify-center">

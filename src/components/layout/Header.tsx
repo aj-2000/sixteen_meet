@@ -10,7 +10,10 @@ const Header = () => {
         <span>HOST</span>
         <span className="hidden md:inline-block">WHITEBOARD</span>
         <span>
-          <img className="w-8 h-8 rounded-lg" src="https://lh3.googleusercontent.com/a-/ACNPEu-ZEq2Jnz5X34P-Kc2LfSVP0qKOzyEB0uKNSP_KdQ=s96-c" />
+          <img
+            className="w-8 h-8 rounded-lg"
+            src="https://media.licdn.com/dms/image/D4D03AQHh5u0zW76BqQ/profile-displayphoto-shrink_800_800/0/1668944589962?e=1677715200&v=beta&t=RB-ZLzKyU_hqd0lYsawIv8vrbtsS24ofrBlsRc7RLjA"
+          />
         </span>
       </div>
     </div>
